@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
 float tinhccanhhuyen(int a, int b) {
-    return (float) sqrt(a * a + b * b);
+    return (float) sqrt(pow(a,2)+ pow(b,2));
 }
 
 int main() {

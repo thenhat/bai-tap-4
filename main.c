@@ -14,8 +14,8 @@ int main() {
     scanf("%d", &b);
     if (a <= 0 || b <= 0) {
         printf("canh tam giac khong the nho hon 0");
-        exit;
+    } else {
+        printf("Chieu dai canh huyen la: %.2f\n", tinhccanhhuyen(a, b));
     }
-    printf("Chieu dai canh huyen la: %.2f\n", tinhccanhhuyen(a, b));
     return 0;
 }
